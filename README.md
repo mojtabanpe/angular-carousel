@@ -1,18 +1,15 @@
 # Carousel for Angular
 
-<img src="https://badgen.net/bundlephobia/min/angular-responsive-carousel" />
 
 A simple solution for horizontal scrolling images with lazy loading.
 
-Live demo can be found on [home page](http://ivylab.space/carousel).
-
-🔬️ Help make IvyCarousel better by [answering a few questions](https://docs.google.com/forms/d/e/1FAIpQLSemPfIejDl3Pq4mFz32sFZgvLo7JbyXZPZFt4uDw9G4H92H8Q/viewform?usp=sf_link).
+Live demo can be found on [home page](https://angularcarousel.top).
 
 ## Installation
 
 Install the npm package.
 ```
-  npm i angular-responsive-carousel
+  npm i angular-responsive-carousel2
 ```
 Import module:
 ```ts
@@ -28,10 +25,10 @@ Put the contents of your cells in containers with the `carousel-cell` class.
 
 ```html
 <carousel>
-    <div class="carousel-cell">
-        <img src="path_to_image">
-    </div>
-    <div class="carousel-cell">
+    <carousel-cell class="carousel-cell">
+      <div>...</div>
+    </carousel-cell>
+    <carousel-cell class="carousel-cell">
         ...
 </carousel>
 ```
