@@ -13,7 +13,7 @@ Install the npm package.
 ```
 Import module:
 ```ts
-  import {IvyCarouselModule} from 'angular-responsive-carousel';
+  import {IvyCarouselModule} from 'angular-responsive-carousel2';
 
   @NgModule({
       imports: [IvyCarouselModule]
