@@ -1,0 +1,261 @@
+<div class="container">
+	<div class="section section--demo" id="examples">
+		<h2>Examples</h2>
+
+		<!-- Basic -->
+		<div class="demo">
+			<carousel
+				[images]="images"
+				[objectFit]="'cover'">
+			</carousel>
+		</div>
+
+		<!-- Image slider -->
+		<div class="demo">
+			<h3>Image slider</h3>
+			<carousel
+				[images]="imagesForSlider"
+				[objectFit]="'cover'"
+				[cellWidth]="'100%'"
+				[height]="300"
+				[autoplay]="true"
+				[dots]="true"
+				[loop]="true">
+			</carousel>
+		</div>
+
+		<!-- HTML content -->
+		<div class="demo">
+			<h3>HTML content</h3>
+			<carousel class="carousel-html-content" [loop]="true">
+				<carousel-cell class="carousel-cell">1</carousel-cell>
+				<carousel-cell class="carousel-cell">2</carousel-cell>
+				<carousel-cell class="carousel-cell">3</carousel-cell>
+				<carousel-cell class="carousel-cell">4</carousel-cell>
+				<carousel-cell class="carousel-cell">5</carousel-cell>
+				<carousel-cell class="carousel-cell">6</carousel-cell>
+				<carousel-cell class="carousel-cell">7</carousel-cell>
+			</carousel>
+		</div>
+
+		<!-- width / height -->
+		<div class="demo">
+			<h3>width = 410 height = 100</h3>
+			<carousel
+				[images]="images"
+				[width]="410"
+				[height]="100">
+			</carousel>
+		</div>
+
+		<!-- cellWidth -->
+		<div class="demo">
+			<h3>cellWidth = 100</h3>
+			<carousel
+				[images]="images"
+				[cellWidth]="100">
+			</carousel>
+		</div>
+
+		<!-- cellsToShow -->
+		<div class="demo">
+			<h3>cellsToShow = 5</h3>
+			<carousel
+				[images]="images"
+				[height]="150"
+				[cellsToShow]="5">
+			</carousel>
+		</div>
+
+		<!-- cellsToScroll -->
+		<div class="demo">
+			<h3>cellsToScroll = 3</h3>
+			<carousel
+				[images]="images"
+				[cellsToScroll]="3">
+			</carousel>
+		</div>
+
+		<!-- loop -->
+		<div class="demo">
+			<h3>loop</h3>
+			<carousel
+				[images]="images"
+				[loop]="true">
+			</carousel>
+		</div>
+
+		<!-- lightDOM -->
+		<div class="demo">
+			<h3>lightDOM</h3>
+			<carousel
+				[images]="images"
+				[lightDOM]="true">
+			</carousel>
+		</div>
+
+		<!-- overflowCellsLimit -->
+		<div class="demo">
+			<h3>overflowCellsLimit = 2</h3>
+			<carousel
+				[images]="images"
+				[overflowCellsLimit]="2"
+				[loop]="true">
+			</carousel>
+		</div>
+
+		<!-- Free scroll -->
+		<div class="demo">
+			<h3>freeScroll</h3>
+			<carousel
+				[images]="images"
+				[freeScroll]="true">
+			</carousel>
+		</div>
+
+		<!-- autoplay -->
+		<div class="demo">
+			<h3>autoplay</h3>
+			<carousel
+				[images]="images"
+				[autoplay]="true"
+				[loop]="true">
+			</carousel>
+		</div>
+
+		<!-- autoplayInterval -->
+		<div class="demo">
+			<h3>autoplayInterval = 2000</h3>
+			<carousel
+				[images]="images"
+				[autoplay]="true"
+				[autoplayInterval]="2000"
+				[loop]="true">
+			</carousel>
+		</div>
+
+		<!-- pauseOnHover -->
+		<div class="demo">
+			<h3>pauseOnHover = false</h3>
+			<carousel
+				[images]="images"
+				[autoplay]="true"
+				[autoplayInterval]="2000"
+				[pauseOnHover]="false"
+				[loop]="true">
+			</carousel>
+		</div>
+
+		<!-- dots -->
+		<div class="demo">
+			<h3>dots = true</h3>
+			<carousel
+				[images]="images"
+				[dots]="true"
+				[cellsToShow]="1">
+			</carousel>
+		</div>
+
+		<!-- objectFit -->
+		<div class="demo">
+			<h3>objectFit = contain</h3>
+			<carousel
+				[images]="images"
+				objectFit="contain">
+			</carousel>
+		</div>
+
+		<!-- margin -->
+		<div class="demo">
+			<h3>margin = 20</h3>
+			<carousel
+				[images]="images"
+				[margin]="20">
+			</carousel>
+		</div>
+
+		<!-- minSwipeDistance -->
+		<div class="demo">
+			<h3>minSwipeDistance = 50</h3>
+			<carousel
+				[images]="images"
+				[minSwipeDistance]="50">
+			</carousel>
+		</div>
+
+		<!-- transitionDuration -->
+		<div class="demo">
+			<h3>transitionDuration = 1000</h3>
+			<carousel
+				[images]="images"
+				[transitionDuration]="1000">
+			</carousel>
+		</div>
+
+		<!-- transitionTimingFunction -->
+		<div class="demo">
+			<h3>transitionTimingFunction = linear</h3>
+			<carousel
+				[images]="images"
+				transitionTimingFunction="linear">
+			</carousel>
+		</div>
+
+		<!-- counter -->
+		<div class="demo">
+			<h3>counter = true</h3>
+			<carousel
+				[images]="images"
+				[counter]="true"
+				[cellsToShow]="1">
+			</carousel>
+		</div>
+
+		<!-- counterSeparator -->
+		<div class="demo">
+			<h3>counterSeparator = of</h3>
+			<carousel
+				[images]="images"
+				[counter]="true"
+				counterSeparator=" of "
+				[cellsToShow]="1">
+			</carousel>
+		</div>
+
+		<!-- borderRadius -->
+		<div class="demo">
+			<h3>borderRadius = 10</h3>
+			<carousel
+				[images]="images"
+				[borderRadius]="10">
+			</carousel>
+		</div>
+
+		<!-- arrows -->
+		<div class="demo">
+			<h3>arrows = false</h3>
+			<carousel
+				[images]="images"
+				[arrows]="false">
+			</carousel>
+		</div>
+
+		<!-- arrowsOutside -->
+		<div class="demo">
+			<h3>arrowsOutside = true</h3>
+			<carousel
+				[images]="images"
+				[arrowsOutside]="true">
+			</carousel>
+		</div>
+		
+		<!-- arrowsTheme -->
+		<div class="demo">
+			<h3>arrowsTheme = dark</h3>
+			<carousel
+				[images]="images"
+				arrowsTheme="dark">
+			</carousel>
+		</div>
+	</div>
+</div>
